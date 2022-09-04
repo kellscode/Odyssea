@@ -44,3 +44,4 @@ The first time you run Odyssea, you will need to run `make play`, which will com
 
 The file *bin/scores.txt* contains all of our scores that we have logged while creating and playtesting Odyssea. If you wish to remove our scores, you can clear its contents.
 # Odyssea
+# Odyssea
