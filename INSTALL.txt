@@ -1,0 +1,15 @@
+Welcome to the Odyssea! Here is how to run our game:
+
+- You will also need to download raylib by typing "opam depext raylib" and 
+"opam install raylib" in your terminal 
+- If you are using wsl2 and you have not set up an XServer:
+  - First download, install, and run VcXsrv from https://sourceforge.net/projects/vcxsrv/
+    - Make sure that you run with disable access control ON
+  - Open the file ~/.bashrc, and add the following line to the end of it:
+   export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+  - Save the file, and restart wsl2
+- You are now ready to play our game. Simply navigate to the correct folder, 
+  and type in the terminal "make play"!
+  - If you want to reset the saved scores, delete the scores.txt file in bin/
+  - Once you have ran make play once, you can run make start to skip any building
+- Thank you for downloading and we hope you enjoy the game!
