@@ -43,6 +43,3 @@ Gameplay
 The first time you run Odyssea, you will need to run `make play`, which will compile and launch the game. Anytime after, you can run `make start` to skip recompiling and just launch the game. You can find a tutorial in the main menu of the game.
 
 The file *bin/scores.txt* contains all of our scores that we have logged while creating and playtesting Odyssea. If you wish to remove our scores, you can clear its contents.
-# Odyssea
-# Odyssea
-# Odyssea
